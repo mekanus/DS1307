@@ -1,6 +1,6 @@
 # DS1307
 
-**Códigos para uso do display Display Oled Azul 128x32 Pixel 0.91 Polegadas I2c => http://www.lojamekanus.com.br/produto/407862/display-oled-azul-128x32-pixel-091-polegadas-i2c**
+**Códigos para uso do Módulo Relógio Rtc Ds1307 E At24c32 => http://www.lojamekanus.com.br/detalhes.asp?IdProduto=407829**
 
 **O conteúdo do repositório é sempre relacionado ao tema do mesmo, podendo entretanto, não estar limitado a somente ao tema.
 
