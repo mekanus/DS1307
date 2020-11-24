@@ -1,4 +1,4 @@
-# DS1307
+# Módulo Relógio Rtc Ds1307
 
 **Códigos para uso do Módulo Relógio Rtc Ds1307 E At24c32 => http://www.lojamekanus.com.br/detalhes.asp?IdProduto=407829**
 
