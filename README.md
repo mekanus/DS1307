@@ -14,6 +14,6 @@ Conteúdo referente ao Módulo Relógio Rtc Ds1307 E At24c32 vendido pela Mekanu
 
 
 
-### Codigo para montagem de projeto de relogio utilziando display 7 segmentos 4 dígitos  - anodo comum >> https://github.com/mekanus/DS1307/blob/main/LED4Dig7SegAnodoComun.ino
+### Projeto de relogio utilziando display 7 segmentos 4 dígitos  - anodo comum (com desenho da montagem e lista de materiais) >> https://github.com/mekanus/DS1307/issues/1
 
 ### Codigo para montagem de projeto de relogio utilziando display 7 segmentos 4 dígitos  - catodo comum >> https://github.com/mekanus/DS1307/blob/main/RTC7SEG4DIGCatodoComun.ino
