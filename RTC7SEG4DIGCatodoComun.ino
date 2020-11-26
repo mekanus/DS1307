@@ -11,48 +11,23 @@
  * Display    Arduino
  *      1     6
  *      2     5
- *      3     9
+ *      3     9      Ponto (Dot) - Não usado para esta finalidade
  *      4     4
  *      5     8
- *      6     17*
+ *      6     12*
  *      7     3
- *      8     16*
- *      9     15*
+ *      8     11*
+ *      9     10*
  *      10    7
  *      11    2
- *      12    14*
+ *      12    9*    Porta 9 usada como combinação lógica para dígito
  *      
  * O RTC é conectado via I2C
  * Os funcionamentos dos segmentos são baseados em diferença de nível lógico
+ * Todas as portas do Arduino marcadas com um asterisco são ligadas diretamente
+ * Todas as portas sem identificação por asterisco deve usar um limitador de corrente.
  */
 
-/*
- * MEKANUS ROBÓTICA EDUCACIONAL
- * RELÓGIO RTC COM DISPLAY 7 SEGMENTOS 4 DÍGITOS
- * 
- * Ligação:
- * O display 7Seg4Dig CATODO COMUM é conectado ao Arduino da seguinte maneira:
- * Os pinos 1, 2, 3, 4, 5, 7, 10 e 11 recebem um limitador de corrente. Um resistor
- * de 220R, 330R, 470R ou 560R podem ser usados. Nunca ligados diretamente. Os pinos
- * Display-Arduino é conectado conforme a relação abaixo:
- * 
- * Display    Arduino
- *      1     6
- *      2     5
- *      3     9
- *      4     4
- *      5     8
- *      6     17*
- *      7     3
- *      8     16*
- *      9     15*
- *      10    7
- *      11    2
- *      12    14*
- *      
- * O RTC é conectado via I2C
- * Os funcionamentos dos segmentos são baseados em diferença de nível lógico
- */
 
 #include <Wire.h>
 #include "RTClib.h"
