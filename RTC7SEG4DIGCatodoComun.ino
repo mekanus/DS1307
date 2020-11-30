@@ -1,6 +1,6 @@
 /*
  * MEKANUS ROBÓTICA EDUCACIONAL
- * RELÓGIO RTC COM DISPLAY 7 SEGMENTOS 4 DÍGITOS
+ * RELÓGIO RTC COM DISPLAY 7 SEGMENTOS 4 DÍGITOS CATODO COMUM
  * 
  * Ligação:
  * O display 7Seg4Dig CATODO COMUM é conectado ao Arduino da seguinte maneira:
