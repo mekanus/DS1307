@@ -1,9 +1,9 @@
 /*
  * MEKANUS ROBÓTICA EDUCACIONAL
- * RELÓGIO RTC COM DISPLAY 7 SEGMENTOS 4 DÍGITOS
+ * RELÓGIO RTC COM DISPLAY 7 SEGMENTOS 4 DÍGITOS ANODO COMUM
  * 
  * Ligação:
- * O display 7Seg4Dig CATODO COMUM é conectado ao Arduino da seguinte maneira:
+ * O display 7 SEGMENTOS 4 DÍGITOS ANODO COMUM é conectado ao Arduino da seguinte maneira:
  * Os pinos 1, 2, 3, 4, 5, 7, 10 e 11 recebem um limitador de corrente. Um resistor
  * de 220R, 330R, 470R ou 560R podem ser usados. Nunca ligados diretamente. Os pinos
  * Display-Arduino é conectado conforme a relação abaixo:
@@ -22,7 +22,7 @@
  *      11    2
  *      12    9*
  *      
-* Os funcionamentos dos segmentos são baseados em diferença de nível lógico
+ * Os funcionamentos dos segmentos são baseados em diferença de nível lógico
  * Todas as portas do Arduino marcadas com um asterisco são ligadas diretamente
  * Todas as portas sem identificação por asterisco deve usar um limitador de corrente.
  */
